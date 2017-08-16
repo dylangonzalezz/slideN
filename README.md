@@ -1,4 +1,4 @@
-# dmg-sortMe
+# slideN
 
 ## Welcome!
 slideN is a npm package that creates a simple slider.
@@ -16,13 +16,14 @@ With this package you can easily create your own slider without much code.
 #Setting up:
 Link the .js and .css file in your html file.
 
-```<script src="js/jquery-3.2.1.js"></script>
-<script src="sliden/sliden.js"></script>
+`<script src="js/jquery-3.2.1.js"></script>`
+`<script src="sliden/sliden.js"></script>`
 
-<script>
-  var slider = slidenjs();
-  slider.initialize("slidenjs");
-</script>```
+`<script>`
+  `var slider = slidenjs();`
+  `slider.initialize("slidenjs");`
+`</script>`
+
 Don't forget you will also need jquery!
 
 `<link rel="stylesheet" type="text/css" href="sliden/sliden.css"/>`
