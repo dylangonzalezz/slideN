@@ -1,0 +1,17 @@
+{
+  "name": "sliden",
+  "version": "1.0.0",
+  "description": "a package that creates a simple slider",
+  "main": "sliden.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "slider",
+    "javascript",
+    "html"
+  ],
+  "title": "slideN",
+  "author": "Dylonski",
+  "license": "ISC"
+}

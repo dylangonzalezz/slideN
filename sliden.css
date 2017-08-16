@@ -1,0 +1,41 @@
+.slidenjs {
+  width: 100%;
+  height: 200px;
+  position: relative;
+}
+
+.slidenjs__slide {
+  display: none;
+}
+
+.slidenjs__slide--active {
+  display: inline-block;
+  width: 46%;
+  text-align: center;
+  margin: 0 27% 0 27%;
+}
+
+.slidenjs__button {
+  top: 15%;
+  width:100px;
+  height: 50px;
+  position: absolute;
+  background-color: #7f6850;
+  display: flex;
+}
+
+.slidenjs__button:hover {
+  background-color: #aa6850;
+}
+
+.slidenjs__button--left {
+  left: 20%;
+  -webkit-clip-path: polygon(33% 0, 8% 50%, 35% 100%, 25% 100%, 0% 50%, 25% 0%);
+  clip-path: polygon(33% 0, 8% 50%, 33% 100%, 25% 100%, 0% 50%, 25% 0%);
+}
+
+.slidenjs__button--right {
+  right: 20%;
+  -webkit-clip-path: polygon(33% 0, 8% 50%, 35% 100%, 25% 100%, 0% 50%, 25% 0%);
+  clip-path: polygon(75% 0, 100% 50%, 75% 100%, 67% 100%, 92% 50%, 67% 0%);
+}
